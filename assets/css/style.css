@@ -1,0 +1,35 @@
+*{
+    overflow: visible;
+    align-items: center;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+#sec1{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/wallpaperflare.com_wallpaper.jpg") top center;
+    background-size: cover;
+}
+#sec1{
+    height: 35rem;
+}
+@media only screen and (max-width: 600px) {
+    * {
+      width: 100%;
+    }
+  }
+  #sign{
+      color: rgb(11, 13, 14);
+      font: bolder ;
+      background-color: rgba(169, 169, 169, 0.479);
+
+  }
+  header{
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+  }
+  

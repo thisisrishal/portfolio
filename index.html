@@ -275,7 +275,7 @@ document.querySelector('#name').onkeypress = validate;
 
 function validate(e) {
     e = e
-    return /[a-z]/i.test(
+    return /[a-z " "]/i.test(
         String.fromCharCode(e.charCode || e.keyCode)
     ) || !e.charCode && e.keyCode < 48;
 }
